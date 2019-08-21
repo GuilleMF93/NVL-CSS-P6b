@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+ <head>
+	<meta charset="utf-8">
+	<title>NVL-CSS-P6b-Mismo_Nivel</title>
+	<style>
+		h1{
+			text-align: center;
+			color: #2f174a;
+			font: normal normal 32px sans-serif;
+		} 
+
+		div p{
+				border: 2px solid #fabada;
+		}
+
+		p.importante ~ p{
+				color: red;
+		}
+
+	</style>
+ </head>
+ <body>
+ 	<div>
+ 		<h1>NVL-CSS-P6b-Mismo_Nive</h1>
+ 	</div>
+ 	<p>Este párrafo no está dentro del <i>div</i>, solo es un control</p>
+ 	<div>
+ 		<p class="importante">Este el primer párrafo.</p>
+ 		<p>Este es el segundo párrafo</p>
+ 		<p>Este es el tercer párrafo</p>
+ 		<p>Otro párrafo</p>
+ 		<p>Otro párrafo más</p>
+ 		<p>Y otro más aún</p>
+ 	<div>
+ </body>
+</html>
